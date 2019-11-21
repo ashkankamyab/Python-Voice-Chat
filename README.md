@@ -5,11 +5,6 @@ A program that allows multiple people to communicate over the internet using the
 - Dependancy Installation - ``pip install -r requirements.txt``
 - Running - ``python client.py`` or ``python server.py``
 
-## Usage
-- Run ``server.py`` on the machine you wish to act as the server, entering the desired port you wish to run the server on. You can run multiple independent servers, however they must be running on different ports.
-- Any clients can now connect to the server by running ``client.py`` then entering the IP and port the server is running on (as seen in the server terminal).
-- Clients can now communicate by speaking into a connected microphone.
-
 ## Requirements
 - Python 3
 - PyAudio
