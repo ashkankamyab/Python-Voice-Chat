@@ -3,7 +3,7 @@ import threading
 
 class Server:
     def __init__(self):
-            self.ip = input('Enter local port to bind to --> ')
+            self.ip = socket.gethostbyname(socket.gethostname())
             while 1:
                 try:
                     self.port = int(input('Enter port number to run on --> '))
@@ -12,7 +12,7 @@ class Server:
                     self.s.bind((self.ip, self.port))
 
                     break
-               except:
+                except:
                     print("Couldn't bind to that port")
 
             self.connections = []
