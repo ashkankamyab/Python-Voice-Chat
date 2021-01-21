@@ -2,8 +2,18 @@
 A program that allows multiple people to communicate over the internet using their microphones for voice chat. If you don't have Python or the required modules, you can download an .exe file for both the server and client [here.](https://github.com/TomPrograms/Python-Voice-Chat/releases/tag/0.1)
 
 ## Setup
-- Dependancy Installation - ``pip install -r requirements.txt``
-- Running - ``python client.py`` or ``python server.py``
+### Windows
+#### Dependancy Installation:
+``pip install -r requirements.txt``
+
+### Linux/Mac
+#### Dependancy Installation:
+- sudo apt install -y portaudio19-dev
+- sudo apt install -y pyaudio
+- pip install -r requirements.txt
+
+## Running 
+``python client.py`` or ``python server.py``
 
 ## Usage
 - Run server.py or server.exe specifying the port you want to bind to.
