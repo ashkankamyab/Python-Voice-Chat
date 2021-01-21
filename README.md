@@ -4,13 +4,13 @@ A program that allows multiple people to communicate over the internet using the
 ## Setup
 ### Windows
 #### Dependancy Installation:
-``pip install -r requirements.txt``
+- ``pip install -r requirements.txt``
 
 ### Linux/Mac
 #### Dependancy Installation:
-- sudo apt install -y portaudio19-dev
-- sudo apt install -y pyaudio
-- pip install -r requirements.txt
+- ``sudo apt install -y portaudio19-dev``
+- ``sudo apt install -y pyaudio``
+- ``pip install -r requirements.txt``
 
 ## Running 
 ``python client.py`` or ``python server.py``
